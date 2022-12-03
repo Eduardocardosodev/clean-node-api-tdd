@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1670080492363" clover="3.2.0">
-  <project timestamp="1670080492363" name="All files">
-    <metrics statements="32" coveredstatements="32" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9" elements="47" coveredelements="47" complexity="0" loc="32" ncloc="32" packages="2" files="5" classes="5"/>
+<coverage generated="1670083669753" clover="3.2.0">
+  <project timestamp="1670083669753" name="All files">
+    <metrics statements="39" coveredstatements="39" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10" elements="57" coveredelements="57" complexity="0" loc="39" ncloc="39" packages="2" files="6" classes="6"/>
     <package name="helpers">
-      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
       <file name="http-response.js" path="C:\Users\edudu\Documents\estudos\tddClean\clean-node-api-tdd\src\presentation\helpers\http-response.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
         <line num="14" count="5" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="28" count="2" type="stmt"/>
+      </file>
+      <file name="invalid-param-error.js" path="C:\Users\edudu\Documents\estudos\tddClean\clean-node-api-tdd\src\presentation\helpers\invalid-param-error.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
       </file>
       <file name="missing-param-error.js" path="C:\Users\edudu\Documents\estudos\tddClean\clean-node-api-tdd\src\presentation\helpers\missing-param-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -35,24 +41,28 @@
       </file>
     </package>
     <package name="routers">
-      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
       <file name="login-router.js" path="C:\Users\edudu\Documents\estudos\tddClean\clean-node-api-tdd\src\presentation\routers\login-router.js">
-        <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="9" count="10" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
-        <line num="11" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="17" count="6" type="stmt"/>
-        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="24" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
       </file>
     </package>
   </project>
