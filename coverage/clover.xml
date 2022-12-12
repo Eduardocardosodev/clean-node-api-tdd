@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1670866974957" clover="3.2.0">
-  <project timestamp="1670866974958" name="All files">
+<coverage generated="1670869203450" clover="3.2.0">
+  <project timestamp="1670869203450" name="All files">
     <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="4" coveredelements="4" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
-    <file name="email-validator.js" path="C:\Users\edudu\Documents\estudos\tddClean\clean-node-api-tdd\src\presentation\utils\email-validator.js">
+    <file name="email-validator.js" path="C:\Users\edudu\Documents\estudos\tddClean\clean-node-api-tdd\src\utils\email-validator.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
